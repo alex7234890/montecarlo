@@ -112,8 +112,12 @@ export default function AbbonamentiPage() {
             <span className="text-sm">Torna alla Home</span>
           </Link>
           <div className="flex items-center gap-3">
-            <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center">
-              <span className="font-heading text-primary-foreground text-sm leading-none">M</span>
+            <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center overflow-hidden">
+              <img
+                src="/images/logo.png"
+                alt="Logo ASD Montecarlo"
+                className="w-full h-full object-cover"
+              />
             </div>
             <span className="font-heading text-foreground text-lg tracking-wider hidden sm:block">MONTECARLO LIVE</span>
           </div>
@@ -359,8 +363,12 @@ export default function AbbonamentiPage() {
       <footer className="border-t border-border py-8">
         <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-3">
-            <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center">
-              <span className="font-heading text-primary-foreground text-sm leading-none">M</span>
+            <div className="w-8 h-8 rounded-full bg-primary flex items-center justify-center overflow-hidden">
+              <img
+                src="/images/logo.png"
+                alt="Logo ASD Montecarlo"
+                className="w-full h-full object-cover"
+              />
             </div>
             <span className="text-muted-foreground text-sm">2025 ASD Montecarlo</span>
           </div>

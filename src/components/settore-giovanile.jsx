@@ -14,19 +14,19 @@ const teams = [
     name: "Allievi",
     ages: "15 - 16 anni",
     desc: "Preparazione atletica avanzata, schemi di gioco complessi e crescita competitiva ad alto livello.",
-    image: "/images/team-action.jpg",
+    image: "/images/allievi.jpg",
   },
   {
     name: "Juniores",
     ages: "17 - 18 anni",
     desc: "L'ultimo step prima della prima squadra. Competizioni agonistiche e mentalita da professionista.",
-    image: "/images/hero-stadium.jpg",
+    image: "/images/juniores.jpg",
   },
   {
     name: "Prima Squadra",
     ages: "Agonistica",
     desc: "Il vertice del nostro progetto sportivo. Calcio competitivo, spirito di squadra e risultati.",
-    image: "/images/campo-sintetico.jpg",
+    image: "/images/hero-stadium.jpg",
   },
 ];
 
