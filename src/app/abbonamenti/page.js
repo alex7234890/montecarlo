@@ -159,7 +159,7 @@ export default function AbbonamentiPage() {
               }`}
               aria-label="Toggle billing period"
             >
-              <div className={`absolute top-0.5 w-6 h-6 rounded-full bg-foreground transition-transform duration-300 ${
+              <div className={`absolute top-0.5 w-6 h-6 rounded-full bg-white shadow-md transition-transform duration-300 ${
                 billingYearly ? "translate-x-7" : "translate-x-0.5"
               }`} />
             </button>
@@ -176,9 +176,9 @@ export default function AbbonamentiPage() {
       </section>
 
       {/* Pricing Cards */}
-      <section className="pb-28 relative">
+      <section className="pb-28 pt-8 relative">
         <div className="max-w-6xl mx-auto px-4">
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid md:grid-cols-3 gap-6 gap-y-12">
             {plans.map((plan, i) => {
               const Icon = plan.icon;
               const price = billingYearly
@@ -191,11 +191,11 @@ export default function AbbonamentiPage() {
                   key={plan.name}
                   className={`relative rounded-2xl transition-all duration-500 hover:scale-[1.03] hover:-translate-y-2 ${
                     plan.popular ? "ring-2 ring-primary" : ""
-                  }`}
+                  } ${plan.popular ? "mt-0" : ""}`}
                 >
                   {plan.popular && (
-                    <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground px-6 py-1.5 rounded-full text-xs font-bold tracking-wider uppercase">
-                      Piu Scelto
+                    <div className="absolute -top-5 left-1/2 -translate-x-1/2 bg-primary text-primary-foreground px-6 py-2 rounded-full text-xs font-bold tracking-wider uppercase whitespace-nowrap shadow-lg">
+                      Più Scelto
                     </div>
                   )}
                   <div className={`glass p-6 sm:p-8 h-full rounded-2xl border ${plan.popular ? "border-primary/30" : "border-foreground/5"}`}>
