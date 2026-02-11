@@ -35,11 +35,11 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3 group">
-          <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center transition-transform duration-300 group-hover:scale-110 overflow-hidden">
+          <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-primary flex items-center justify-center transition-transform duration-300 group-hover:scale-110 overflow-hidden p-1.5">
             <img
               src="/images/logo.png"
               alt="Logo ASD Montecarlo"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain"
             />
           </div>
           <div className="flex flex-col">
