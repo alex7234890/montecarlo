@@ -10,11 +10,11 @@ export default function Footer() {
           {/* Brand */}
           <div className="md:col-span-1">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-full bg-primary flex items-center justify-center overflow-hidden">
+              <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center overflow-hidden p-1.5">
                 <img
                   src="/images/logo.png"
                   alt="Logo ASD Montecarlo"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-contain"
                 />
               </div>
               <span className="font-heading text-foreground text-2xl tracking-wider">MONTECARLO</span>
