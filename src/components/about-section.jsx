@@ -44,7 +44,7 @@ export default function AboutSection() {
           <div className={`relative transition-all duration-1000 ${inView ? "animate-slide-in-left" : "opacity-0"}`}>
             <div className="relative rounded-2xl overflow-hidden">
               <img
-                src="/images/team-action.jpg"
+                src="/images/about-team.jpg"
                 alt="Squadra Montecarlo in azione durante una partita"
                 className="w-full h-[300px] sm:h-[400px] md:h-[500px] object-cover"
               />
