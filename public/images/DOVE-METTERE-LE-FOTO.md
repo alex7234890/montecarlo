@@ -4,7 +4,19 @@ Sostituisci i file placeholder in questa cartella con le tue foto JPEG/PNG reali
 
 ## ⚠️ IMPORTANTE: Foto Riorganizzate!
 
-Ho sistemato le assegnazioni delle foto come richiesto. Ora ci sono **8 foto** invece di 6.
+Ho sistemato le assegnazioni delle foto come richiesto. Ora ci sono **9 file** (8 foto + 1 logo).
+
+## 🎨 LOGO (Nuovo!)
+
+### **logo.png** ⭐ IMPORTANTE
+   - **Dove appare**:
+     - ✅ Navbar (in alto a sinistra in tutte le pagine)
+     - ✅ Footer (in basso in tutte le pagine)
+     - ✅ Pagina Abbonamenti (navbar e footer)
+   - **Cosa mostrare**: Logo ufficiale ASD Montecarlo
+   - **Dimensioni consigliate**: 200x200px o 512x512px (quadrato)
+   - **Formato**: PNG con sfondo trasparente (preferito) o JPG
+   - **Note**: Verrà mostrato in un cerchio rosso di 40x40px (navbar) e 32x32px (footer)
 
 ## Foto Necessarie
 
